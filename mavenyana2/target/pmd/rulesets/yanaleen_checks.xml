@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="yanaleen_checks.xml Rules"
+ xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/pmd_rule_2_0_0.xsd">
+ <description>
+   Code Inspection Lab, yanaleen_checks.xml
+ </description>
+ <rule ref="category/java/bestpractices.xml">
+   <exclude name="SystemPrintln" />
+ </rule>
+ <rule ref="category/java/design.xml/ImmutableField" />
+ <rule ref="category/java/design.xml/UseUtilityClass">
+   <priority>1</priority>
+ </rule>
+</ruleset>

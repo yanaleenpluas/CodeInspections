@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="D:\Archivos\Eclipse\mavenyana\src\main\java\mavenyana\CalculadoraPaquetesVacacionales.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;// Copyright (C) 2020&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+</file>
+</checkstyle>
